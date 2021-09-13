@@ -6,7 +6,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgb(27, 27, 27);
+    background-image:url(matrix.gif);
+    background-repeat: repeat;
 }
 
 label, input, option, select {
@@ -17,10 +18,11 @@ label, input, option, select {
     position: relative;
     text-align: center;
     top: 5rem;
-    background-color: rgba(170, 170, 170, 0.3);
+    background-color: rgba(170, 170, 170, 0.5);
     border-radius: 1rem;
     width: 40vw;
     height: 70vh;
+    box-shadow: 1px 1px 15px 10px rgb(66, 248, 11);
 }
 
 .campos-form  {
@@ -53,7 +55,7 @@ label, input, option, select {
 }
 
 .seletor {
-    width: 15vw;
+    width: 17vw;
     border-radius: 2mm;
     background-color: rgb(104, 107, 110);
     color: honeydew;
