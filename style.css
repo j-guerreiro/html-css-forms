@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(27, 27, 27);
+}
+
+label, input, option, select {
+    font-weight: 300;
+}
+
+.container-form {
+    position: relative;
+    text-align: center;
+    top: 5rem;
+    background-color: rgba(170, 170, 170, 0.3);
+    border-radius: 1rem;
+    width: 40vw;
+    height: 70vh;
+}
+
+.campos-form  {
+    color: honeydew;
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    font-size: 1rem;
+    width: 25vw;
+
+}
+
+.tit-entrada {
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    top: 8vh;
+    right: 5rem;
+    position: relative;
+
+}
+
+.entrada {
+    border-width: 0.01mm;
+    border-radius: 0.2rem;
+    top: 3rem;
+    position: relative;
+    width: 20vw;
+    height: 5vh;
+}
+
+.seletor {
+    width: 15vw;
+    border-radius: 2mm;
+    background-color: rgb(104, 107, 110);
+    color: honeydew;
+    margin-left: 11vw;
+    font-weight: 400;
+    font-size: 1.5rem;
+    top: 8vh;
+    right: 5rem;
+    position: relative;
+
+}
+
+.btn-enviar {
+    width: 15vw;
+    border-radius: 2mm;
+    font-weight: 400;
+    background-color: rgb(104, 107, 110);
+    color: honeydew;
+    margin-left: 11vw;
+    font-weight: 600;
+    font-size: 1.5rem;
+    top: 8vh;
+    right: 5rem;
+    position: relative;
+
+}
+
+
